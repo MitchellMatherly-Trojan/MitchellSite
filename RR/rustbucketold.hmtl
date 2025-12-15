@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="RustRowStyle.css">
+</head>
+<body>
+
+<h1>Welcome to Rustbucket Row.</h1>
+
+<table id="userTable" border="1">
+    <thead>
+    <tr id="headerRow"></tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+
+<form id="postNew" method="POST" action="/cars">
+<label for="make"> Vehicle make:</label><br>
+<input type="text" id="make" name="make"><br>
+<label for="model">Vehicle model:</label><br>
+<input type="text" id="model" name="model"><br>
+<label for="year"> vehicle year:</label><br>
+<input type="text" id="year" name="year"><br>
+<label for="color"> Vehicle color:</label><br>
+<input type="text" id="color" name="color"><br>
+<label for="owner">Vehicle owner:</label><br>
+<input type="text" id="owner" name="owner"><br>
+<br>
+<input type="submit" id="postsubmit" name="postsubmit"><br>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./mainpage.js"></script>
+
+
+
+
+
+<br><br><br>
+
+<button onclick="window.location.href='/mainpage/index.html'">
+    Enough of this nonsense! take me back!
+</button>
+
+</body>
+</html>
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="RustRowStyle.css">
+<script src="main.js"></script>
+</head>
+
+
+<body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+  <a href="/RR/RustbucketRow.html">Rustbucket Row</a>
+  <a href="https://nospyinghere.com/calvin">Calvin Zone</a>
+  <a href="https://nospyinghere.com/sammy">Sammy Site</a>
+  <a href="/FAQ/FAQ.html">Mitchell M FAQ</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">M O R E !</button>
+  <div id="links">
+	<a href="/mainpage/index.html">  Main Page </a>
+	<a href="/FAQ/FAQ.html"> Mitchell Matherly FAQ </a>
+	<a href="/RR/RustbucketRow.html"> Magic Funland! </a>
+   </div>
+	  <h1 id="title"> Welcome to the Mitchell site! </h1>
+
+</div>
+
+<header>
+	<div id="subtitle">  Rustbucket Row! </div>
+
+	<div class="boxmat">
+
+		<div id="box1" class="griditem">
+			<h2> What is all this?? </h2>
+			<div id="explaintext"> This is a collection of vehicles, owned by myself and the people in my life. I call it "Rustbucket Row" because all the vehicles are kinda beaters. But hey, life is short. Beat your car into the dirt before it's al over.
+
+			if you like, you can add your own car below. Just be sure to fill out every part of the form. And use the yyyy date format, plaease. </div>
+		</div>
+
+
+	    <img class="griditem" src="/pics/impala.jpg" alt="This is the impala!">
+
+	    <div class="griditem">
+	    <form id="postNew" method="POST" action="/cars">
+            <label for="make"> Vehicle make:</label><br>
+            <input type="text" id="make" name="make"><br>
+            <label for="model">Vehicle model:</label><br>
+            <input type="text" id="model" name="model"><br>
+            <label for="year"> vehicle year:</label><br>
+            <input type="text" id="year" name="year"><br>
+            <label for="color"> Vehicle color:</label><br>
+            <input type="text" id="color" name="color"><br>
+            <label for="owner">Vehicle owner:</label><br>
+            <input type="text" id="owner" name="owner"><br>
+            <br>
+            <input type="submit" id="postsubmit" name="postsubmit"><br>
+        </form>
+</div>
+	    <div class="griditem">
+
+	    <table id="userTable" border="1">
+    <thead>
+    <tr id="headerRow"></tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+    </div>
+
+
+	</div>
+<script src="./mainpage.js"></script>
+
+</header>
+
+
+
+</body>
+</html>
