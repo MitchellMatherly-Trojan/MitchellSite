@@ -22,7 +22,9 @@
 
 }
 
-
+#maindrop {
+  text-align: center;
+}
 #links {
 
   display: flex;
