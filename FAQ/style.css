@@ -3,6 +3,10 @@
   flex-direction: column;
   max-width: 600px;
   margin: 0 auto;
+  background-color: black;
+  list-style-type: none;
+  padding: 30px;
+  border-radius: 15px;
 }
 
 .listItem {
@@ -36,7 +40,23 @@
   margin: 10px 0;
 }
 
+#centerdiv {
 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  width: 30%;
+}
 
 #maintitle {
   display: flex;
@@ -45,7 +65,6 @@
   background-color: black;
   border-radius: 15px;
   color: white;
-
 }
 #main {
   display: flex;
